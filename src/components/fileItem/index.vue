@@ -1,11 +1,15 @@
 <template>
   <div class="file-info">
     <img src="@/assets/vue.png" />
-    <span>config.vue</span>
+    <span>{{ fileItem.name }}</span>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  const props = defineProps({
+    fileItem: { type: Object, required: true }
+  })
+</script>
 
 <style lang="scss" scoped>
 .file-info {
@@ -14,10 +18,13 @@
   line-height: 30px;
   border-right: 1px solid #ccc;
   text-align: center;
+  cursor: pointer;
+  user-select: none;
   img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     vertical-align: middle;
+    margin-right: 5px;
   }
 }
 </style>
