@@ -1,11 +1,11 @@
 <template>
   <TopNav />
-  <Main />
+  <View />
 </template>
 
 <script setup>
 import TopNav from './topNav.vue';
-import Main from './main.vue';
+import View from '../views/index.vue';
 </script>
 
 <style lang="scss" scoped></style>
