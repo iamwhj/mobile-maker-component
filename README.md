@@ -4,9 +4,11 @@
 
 ## 运行
 
+先把依赖都安装了，然后运行下面命令
+
 ```bash
 // 先启服务
-node app.js
+yarn dev
 
 // 再启动 web 
 cd ./package/online
