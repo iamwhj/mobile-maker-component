@@ -1,25 +1,17 @@
 {
-  "name": "mobile-maker-component",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "element-plus": "^2.2.16",
-    "monaco-editor": "^0.34.0",
-    "pinia": "^2.0.21",
-    "vue": "^3.2.37"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.3",
-    "sass": "^1.54.8",
-    "unplugin-auto-import": "^0.11.2",
-    "unplugin-vue-components": "^0.22.4",
-    "vite": "^3.0.7",
-    "vite-plugin-monaco-editor": "^1.1.0"
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-router": "^11.0.1"
   }
 }

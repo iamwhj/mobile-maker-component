@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+## 简介
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+该项目配套于 mobile-maker，用于物料组件在线开发预览，一件上传等功能。
 
-## Recommended IDE Setup
+## 运行
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+```bash
+// 先启服务
+node app.js
+
+// 再启动 web 
+cd ./package/online
+
+yarn dev
+```
