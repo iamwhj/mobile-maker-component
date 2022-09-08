@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "element-plus": "^2.2.16",
     "monaco-editor": "^0.34.0",
     "pinia": "^2.0.21",
