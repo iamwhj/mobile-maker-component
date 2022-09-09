@@ -1,6 +1,13 @@
 <template>
   <div class="nav">
-    <div>iamwhj admin</div>
+    <div>
+      <span>iamwhj admin</span>
+    </div>
+    <div class="logoBox">
+      <img src="@/assets/onePrice.png">
+      <img src="@/assets/vueLogo.png">
+      <span>VUE 3.X</span>
+    </div>
     <div>
         <el-link type="primary" target="_blank" href="https://element.eleme.io">store</el-link>
         <span> / mobile-maker-component</span>
@@ -23,6 +30,14 @@
   border-bottom: 1px solid #ccc;
   div {
     padding: 0 5px;
+  }
+  .logoBox {
+    font-size: 16px;
+    img {
+      margin-right: 6px;
+      width: 24px;
+      vertical-align: middle;
+    }
   }
 }
 </style>
