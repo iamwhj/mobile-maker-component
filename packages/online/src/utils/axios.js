@@ -2,7 +2,7 @@ import { create } from 'axios';
 import { ElMessage } from 'element-plus';
 
 const service = create({
-  baseURL: import.meta.env.VITE_APP_API_URL,
+  baseURL: process.env.VUE_APP_API_URL,
   timeout: 5000,
 });
 
